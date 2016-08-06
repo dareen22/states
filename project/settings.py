@@ -104,14 +104,14 @@ CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 STATIC_URL = '/static/'
 
-join(BASE_DIR, 'static')
-join(BASE_DIR, 'media')
+# join(BASE_DIR, 'static')
+# join(BASE_DIR, 'media')
 
-media URL 
+# media URL 
 
 
-try:
-    from local_settings import *
-except ImportError:
-    pass
+# try:
+#     from local_settings import *
+# except ImportError:
+#     pass
 
